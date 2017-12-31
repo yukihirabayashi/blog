@@ -1,0 +1,9 @@
+<h1>ブログ詳細画面</h1>
+<p>名前: <%= @blog.name %></p>
+<p>email: <%= @blog.email %></p>
+<p>タイトル: <%= @blog.title %></p>
+<p>内容: <%= @blog.content %></p>
+
+<br>
+<%= link_to 'ブログ一覧画面にもどる', '/blogs' %>
+<%= link_to '新しくブログを投稿する', new_blog_path %>
