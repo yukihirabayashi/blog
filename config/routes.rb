@@ -5,6 +5,13 @@ Rails.application.routes.draw do
     end
   end
   
-  resources :webpages do
+  root to: ‘webpages#index’
+  get ‘/webpages’, to:’webpages#index’ #追記する
+  resources :webpages
+
+end
+
+    
   end
+  
 end
