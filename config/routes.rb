@@ -5,13 +5,7 @@ Rails.application.routes.draw do
     end
   end
   
-  root to: ‘webpages#index’
-  get ‘/webpages’, to:’webpages#index’ #追記する
+  root to: 'webpages#index'
+  get '/webpages', to:'webpages#index' #追記する
   resources :webpages
-
-end
-
-    
-  end
-  
 end
