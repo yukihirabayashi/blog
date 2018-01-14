@@ -1,0 +1,30 @@
+<div class="container">
+  
+    <div class="row">
+    
+        <div class="col-xs-6 col-sm-6 col-md-6">
+          <div class="thumbnail"><%= link_to 'Coffee','#' %>
+            <%= image_tag 'cafe-1.jpg' %>
+          </div>
+        </div>
+
+        <div class="col-xs-6 col-sm-6 col-md-6">
+          <div class="thumbnail"><%= link_to 'Coffee','#' %>
+            <%= image_tag 'cafe-2.jpg' %>
+          </div>
+        </div>
+        
+        <div class="col-xs-6 col-sm-6 col-md-6">
+          <div class="thumbnail"><%= link_to 'Coffee','#' %>
+            <%= image_tag 'cafe-4.jpg' %>
+          </div>
+        </div>
+        
+        <div class="col-xs-6 col-sm-6 col-md-6">
+          <div class="thumbnail"><%= link_to 'Coffee1','#' %>
+            <%= image_tag 'cafe-3.jpg' %>
+          </div>
+        </div>
+        
+    </div>
+<div>

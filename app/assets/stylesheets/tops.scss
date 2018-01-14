@@ -2,11 +2,50 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
+.jumbotron {
+  background: url(/coffee-tin-2.jpg) center center;
+  background-size: cover;
+  color: white;
+  background-size: cover;
+}
+
+.jumbotron::before {
+  content:"";
+  display: black;
+  padding-top: 75%;
+}
+
 header {
   width: 100%;
-  background-color: #2c3e50;
-  height: 54px;
+  background-color: #664738;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  
 }
+
+ footer {
+  width: 100%;
+  background-color:#664738;
+  padding: 20px 0 10px 0;
+  color: white;
+  margin: auto;
+  padding-bottom: 10px;
+  font-size: 12px;
+  position: fixed;
+  bottom: 0;
+  height: 60px;
+  padding:10px;
+}
+
+/* ナビ固定時のbodyの余白 */
+.fix-body {
+  margin-top: 60px;
+	height: 100%; 
+}
+
+
 
 header ul {
   margin: 0 auto;
@@ -31,17 +70,9 @@ header ul:after {
   clear: both;
 }
 
-footer {
-  width: 100%;
-  background-color:#2c3e50;
-  padding: 20px 0 10px 0;
-  color: white;
-  margin: auto;
-  padding-bottom: 10px;
-  font-size: 12px;
-  position: absolute;
-  bottom: 0;
-}
+
+
+
 
 html {
   position: relative;

@@ -1,11 +1,14 @@
 Rails.application.routes.draw do
-  resources :blogs do
-    collection do
-      post :confirm
+  root to: 'top#index'
+    resources :webpages do
+      collection do 
+      end
     end
-  end
+    
+    resources :blogs do
+      collection do
+      post :confirm
+      end
+    end
   
-  root to: 'webpages#index'
-  get '/webpages', to:'webpages#index' #追記する
-  resources :webpages
 end

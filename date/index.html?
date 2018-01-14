@@ -1,0 +1,411 @@
+
+
+<!DOCTYPE html>
+<html lang="en-US" prefix="og: http://ogp.me/ns#" class="no-js">
+<head>
+    <!--[if lt IE 9]>
+        <script src="https://themewagon.com/wp-content/themes/wagoncore/js/html5shiv.min.js"></script>
+        <script src="https://themewagon.com/wp-content/themes/wagoncore/js/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- meta -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="msvalidate.01" content="5FCF8B779D34832FE2D36DFB6C126940" />
+    <meta name="p:domain_verify" content="68d35eb0ac63d3477701ce6c902bd227"/>
+
+    <!-- favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="/icons/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/icons/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/icons/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/icons/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/icons/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/icons/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/icons/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/icons/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/icons/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="/icons/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/icons/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/icons/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <!-- Wordpress -->
+    <link rel="profile" href="http://gmpg.org/xfn/11">
+    <link rel="pingback" href="https://themewagon.com/xmlrpc.php">
+    <meta property="fb:app_id" content="894999323927740" />
+
+
+    <script type="text/javascript">
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-55162400-1', 'auto');
+        ga('require', 'ec');
+    </script>
+
+
+    <!-- Facebook Pixel Code -->
+    <script>
+    !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+    n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+    document,'script','https://connect.facebook.net/en_US/fbevents.js');
+
+    fbq('init', '146499149130432');
+    fbq('track', "PageView");</script>
+    <noscript><img height="1" width="1" style="display:none"
+    src="https://www.facebook.com/tr?id=146499149130432&ev=PageView&noscript=1"
+    /></noscript>
+    <!-- End Facebook Pixel Code -->
+
+
+    
+    
+<!-- This site is optimized with the Yoast SEO plugin v4.3 - https://yoast.com/wordpress/plugins/seo/ -->
+<title>Thank You for Downloading - Free Bootstrap Themes &amp; Templates for Responsive HTML5 Websites</title>
+<link rel="canonical" href="https://themewagon.com/thank-you-for-downloading/" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Thank You for Downloading - Free Bootstrap Themes &amp; Templates for Responsive HTML5 Websites" />
+<meta property="og:description" content="Please check your inbox. We have already sent you the download link of the template. It will appear like the following screenshot. &nbsp; Please email us info@themewagon.com if you have any question. We are looking forward to hear from you. Please share this website with your friends. Help us designing more great Free Templates." />
+<meta property="og:url" content="https://themewagon.com/thank-you-for-downloading/" />
+<meta property="og:site_name" content="Free Bootstrap Themes &amp; Templates for Responsive HTML5 Websites" />
+<meta property="article:publisher" content="https://www.facebook.com/themewagon/" />
+<meta property="og:image" content="https://d2zav2bjdlctd5.cloudfront.net/uploads/2015/02/check-your-inbox3.jpg" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:description" content="Please check your inbox. We have already sent you the download link of the template. It will appear like the following screenshot. &nbsp; Please email us info@themewagon.com if you have any question. We are looking forward to hear from you. Please share this website with your friends. Help us designing more great Free Templates." />
+<meta name="twitter:title" content="Thank You for Downloading - Free Bootstrap Themes &amp; Templates for Responsive HTML5 Websites" />
+<meta name="twitter:site" content="@themewagon" />
+<meta name="twitter:image" content="https://d2zav2bjdlctd5.cloudfront.net/uploads/2015/02/check-your-inbox3.jpg" />
+<meta name="twitter:creator" content="@themewagon" />
+<!-- / Yoast SEO plugin. -->
+
+<link rel='dns-prefetch' href='//ajax.googleapis.com' />
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="Free Bootstrap Themes &amp; Templates for Responsive HTML5 Websites &raquo; Feed" href="https://themewagon.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Free Bootstrap Themes &amp; Templates for Responsive HTML5 Websites &raquo; Comments Feed" href="https://themewagon.com/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Free Bootstrap Themes &amp; Templates for Responsive HTML5 Websites &raquo; Thank You for Downloading Comments Feed" href="https://themewagon.com/thank-you-for-downloading/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.2.1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.2.1\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/themewagon.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.7.2"}};
+			!function(a,b,c){function d(a){var b,c,d,e,f=String.fromCharCode;if(!k||!k.fillText)return!1;switch(k.clearRect(0,0,j.width,j.height),k.textBaseline="top",k.font="600 32px Arial",a){case"flag":return k.fillText(f(55356,56826,55356,56819),0,0),!(j.toDataURL().length<3e3)&&(k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57331,65039,8205,55356,57096),0,0),b=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57331,55356,57096),0,0),c=j.toDataURL(),b!==c);case"emoji4":return k.fillText(f(55357,56425,55356,57341,8205,55357,56507),0,0),d=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55357,56425,55356,57341,55357,56507),0,0),e=j.toDataURL(),d!==e}return!1}function e(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i,j=b.createElement("canvas"),k=j.getContext&&j.getContext("2d");for(i=Array("flag","emoji4"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='affwp-forms-group-css' href='https://themewagon.com/wp-content/plugins/bwp-minify/min/?f=wp-content/plugins/AffiliateWP/assets/css/forms.min.css,wp-content/plugins/contact-form-7/includes/css/styles.css,wp-content/plugins/easy-digital-downloads/templates/edd.min.css,wp-content/plugins/wp-postratings/css/postratings-css.css,wp-content/plugins/ultimate-social-deux/public/assets/css/style.css,wp-content/themes/wagoncore/css/framework.css,wp-content/themes/wagoncore/style.css,wp-content/themes/themewagon/style.css,wp-content/plugins/rich-reviews/css/rich-reviews.css&#038;ver=1515303028' type='text/css' media='all' />
+<link rel='stylesheet' id='font-roboto-css'  href='//fonts.googleapis.com/css?family=Roboto%3A300%2C400%2C700&#038;ver=4.7.2' type='text/css' media='all' />
+<script type='text/javascript' src='//ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js?ver=2.1.3'></script>
+<link rel='https://api.w.org/' href='https://themewagon.com/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://themewagon.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://themewagon.com/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 4.7.2" />
+<link rel='shortlink' href='https://themewagon.com/?p=586' />
+<link rel="alternate" type="application/json+oembed" href="https://themewagon.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fthemewagon.com%2Fthank-you-for-downloading%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://themewagon.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fthemewagon.com%2Fthank-you-for-downloading%2F&#038;format=xml" />
+<meta name="generator" content="Easy Digital Downloads v2.6.17" />
+			<script type="text/javascript">
+			    var moreText = "Read More";
+			    var lessText = "Show Less";
+			    var excerptLength = 509;
+			</script>
+				<script type="text/javascript">
+		var AFFWP = AFFWP || {};
+		AFFWP.referral_var = 'ref';
+		AFFWP.expiration = 90;
+		AFFWP.debug = 0;
+
+		AFFWP.referral_credit_last = 0;
+		</script>
+<style type="text/css">.us_sticky .us_wrapper{background-color:#ffffff;}.us_floating .us_wrapper .us_button{width:45px;-webkit-transition:width 1000ms ease-in-out,background-color 400ms ease-out;-moz-transition:width 1000ms ease-in-out,background-color 400ms ease-out;-o-transition:width 1000ms ease-in-out,background-color 400ms ease-out;transition:width 1000ms ease-in-out,background-color 400ms ease-out;}.us_floating .us_wrapper .us_button:hover{width:90px;-webkit-transition:width 1000ms ease-in-out,background-color 400ms ease-out;-moz-transition:width 1000ms ease-in-out,background-color 400ms ease-out;-o-transition:width 1000ms ease-in-out,background-color 400ms ease-out;transition:width 1000ms ease-in-out,background-color 400ms ease-out;}.us_facebook{background-color:#3b5998;}.us_facebook:hover{background-color:#008000;}.us_twitter{background-color:#00ABF0;}.us_twitter:hover{background-color:#008000;}.us_google{background-color:#D95232;}.us_google:hover{background-color:#008000;}.us_delicious{background-color:#66B2FD;}.us_delicious:hover{background-color:#008000;}.us_stumble{background-color:#E94B24;}.us_stumble:hover{background-color:#008000;}.us_linkedin{background-color:#1C86BC;}.us_linkedin:hover{background-color:#008000;}.us_pinterest{background-color:#AE181F;}.us_pinterest:hover{background-color:#008000;}.us_buffer{background-color:#000000;}.us_buffer:hover{background-color:#008000;}.us_reddit{background-color:#CEE3F8;}.us_reddit:hover{background-color:#008000;}.us_vkontakte{background-color:#537599;}.us_vkontakte:hover{background-color:#008000;}.us_mail{background-color:#666666;}.us_mail:hover{background-color:#008000;}.us_love{background-color:#FF0000;}.us_love:hover{background-color:#008000;}.us_pocket{background-color:#ee4056;}.us_pocket:hover{background-color:#008000;}.us_tumblr{background-color:#529ecc;}.us_tumblr:hover{background-color:#008000;}.us_print{background-color:#60d0d4;}.us_print:hover{background-color:#008000;}.us_flipboard{background-color:#c10000;}.us_flipboard:hover{background-color:#008000;}.us_comments{background-color:#b69823;}.us_comments:hover{background-color:#008000;}.us_feedly{background-color:#414141;}.us_feedly:hover{background-color:#008000;}.us_youtube:hover{background-color:#008000;}.us_youtube{background-color:#cc181e;}.us_vimeo{background-color:#1bb6ec;}.us_vimeo:hover{background-color:#008000;}.us_behance{background-color:#1769ff;}.us_behance:hover{background-color:#008000;}.us_ok{background-color:#f2720c;}.us_ok:hover{background-color:#008000;}.us_weibo{background-color:#e64141;}.us_weibo:hover{background-color:#008000;}.us_managewp{background-color:#098ae0;}.us_managewp:hover{background-color:#008000;}.us_xing{background-color:#026466;}.us_xing:hover{background-color:#008000;}.us_whatsapp{background-color:#34af23;}.us_whatsapp:hover{background-color:#008000;}.us_meneame{background-color:#ff6400;}.us_meneame:hover{background-color:#008000;}.us_digg{background-color:#000000;}.us_digg:hover{background-color:#008000;}.us_dribbble{background-color:#f72b7f;}.us_dribbble:hover{background-color:#008000;}.us_envato{background-color:#82b540;}.us_envato:hover{background-color:#008000;}.us_github{background-color:#201e1f;}.us_github:hover{background-color:#008000;}.us_soundcloud{background-color:#ff6f00;}.us_soundcloud:hover{background-color:#008000;}.us_instagram{background-color:#48769c;}.us_instagram:hover{background-color:#008000;}.us_feedpress{background-color:#ffafaf;}.us_feedpress:hover{background-color:#008000;}.us_mailchimp{background-color:#6dc5dc;}.us_mailchimp:hover{background-color:#008000;}.us_flickr{background-color:#0062dd;}.us_flickr:hover{background-color:#008000;}.us_members{background-color:#0ab071;}.us_members:hover{background-color:#008000;}.us_more{background-color:#53B27C;}.us_more:hover{background-color:#008000;}.us_posts{background-color:#924e2a;}.us_posts:hover{background-color:#008000;}.us_facebook a{color:#3b5998;}.us_facebook a:hover{color:#008000;}.us_twitter a{color:#00ABF0;}.us_twitter a:hover{color:#008000;}.us_google a{color:#D95232;}.us_google a:hover{color:#008000;}.us_delicious a{color:#66B2FD;}.us_delicious a:hover{color:#008000;}.us_stumble a{color:#E94B24;}.us_stumble a:hover{color:#008000;}.us_linkedin a{color:#1C86BC;}.us_linkedin a:hover{color:#008000;}.us_pinterest a{color:#AE181F;}.us_pinterest a:hover{color:#008000;}.us_buffer a{color:#000000;}.us_buffer a:hover{color:#008000;}.us_reddit a{color:#CEE3F8;}.us_reddit a:hover{color:#008000;}.us_vkontakte a{color:#537599;}.us_vkontakte a:hover{color:#008000;}.us_mail a{color:#666666;}.us_mail a:hover{color:#008000;}.us_love a,.us_love{color:#FF0000;}.us_love a:hover,.us_love:hover{color:#008000;}.us_pocket a{color:#ee4056;}.us_pocket a:hover{color:#008000;}.us_tumblr a{color:#529ecc;}.us_tumblr a:hover{color:#008000;}.us_print a{color:#60d0d4;}.us_print a:hover{color:#008000;}.us_flipboard a{color:#c10000;}.us_flipboard a:hover{color:#008000;}.us_comments a,.us_comments{color:#b69823;}.us_comments a:hover,.us_comments:hover{color:#008000;}.us_feedly a{color:#414141;}.us_feedly a:hover{color:#008000;}.us_youtube a{color:#cc181e;}.us_youtube a:hover{color:#008000;}.us_vimeo a{color:#1bb6ec;}.us_vimeo a:hover{color:#008000;}.us_behance a{color:#1769ff;}.us_behance a:hover{color:#008000;}.us_ok a{color:#f2720c;}.us_ok a:hover{color:#008000;}.us_weibo a{color:#e64141;}.us_weibo a:hover{color:#008000;}.us_managewp a{color:#098ae0;}.us_managewp a:hover{color:#008000;}.us_xing a{color:#026466;}.us_xing a:hover{color:#008000;}.us_whatsapp a{color:#34af23;}.us_whatsapp a:hover{color:#008000;}.us_meneame a{color:#ff6400;}.us_meneame a:hover{color:#008000;}.us_digg a{color:#000000;}.us_digg a:hover{color:#008000;}.us_dribbble a{ color:#f72b7f;}.us_dribbble a:hover{ color:#008000;}.us_envato a{color:#82b540;}.us_envato a:hover{color:#008000;}.us_github a{color:#201e1f;}.us_github a:hover{color:#008000;}.us_soundcloud a{color:#ff6f00;}.us_soundcloud a:hover{color:#008000;}.us_instagram a{color:#48769c;}.us_instagram a:hover{color:#008000;}.us_feedpress{color:#ffafaf;}.us_feedpress:hover{color:#008000;}.us_mailchimp{color:#6dc5dc;}.us_mailchimp:hover{color:#008000;}.us_flickr a{color:#0062dd;}.us_flickr a:hover{color:#008000;}.us_members{color:#0ab071;}.us_members:hover{color:#008000;}.us_more a{color:#53B27C;}.us_more a:hover{color:#008000;}.us_posts{color:#924e2a;}.us_posts:hover{color:#008000;}.us_wrapper .us_button{width:70px;}</style></head>
+<body class="page-template page-template-page-thankyou page-template-page-thankyou-php page page-id-586 has-twpromo-top group-blog" data-spy="scroll" data-target="#jump-scroll-nav">
+    <!--[if lt IE 9]>
+        <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+    
+
+    
+    
+    <nav id="main-nav" class="navbar">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="https://themewagon.com/" title="Free Responsive Bootstrap Themes">
+                    <img src="https://d2zav2bjdlctd5.cloudfront.net/themes/themewagon/img/logo.png" alt="ThemeWagon Logo">
+                </a>
+            </div>
+
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+                <div class="navbar-form navbar-left" role="search">
+                    <meta itemprop="url" content="https://themewagon.com"/>
+                    <form class="site-search" role="search" method="get" action="https://themewagon.com/">
+                        <input itemprop="query-input" type="search" name="s" placeholder="" value="" required>
+                        <button type="submit" value="Search"><span class="ion-android-search"></span></button>
+                    </form>
+                </div>
+
+                <ul class="nav navbar-nav navbar-left">
+                    <li class="">
+                        <a href="https://themewagon.com/sell-your-item/">Start Selling</a>
+                    </li>
+                    <li class="">
+                        <a href="https://themewagon.com/submit-template/">Submit a free template</a>
+                    </li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    
+                    <li class="">
+                        <a href="/wagon_tickets"><i class="fa fa-heart"></i>&nbsp;&nbsp;Support</a>
+                    </li>
+                    <li>
+                        <a href="/blog">Blog</a>
+                    </li>
+
+                                        <li class="login_menu">
+                        <a href="/user-login"><i class="fa fa-lock"></i> Login</a>
+                    </li>
+                                                                            </ul>
+            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+    </nav>
+    
+    <div class="header-second-menu-wrap hidden-xs">
+
+        <div class="header-second-menu-wrap">
+                        <div class="container header-second-menu"><ul class="nav nav-pills nav-centered"><li id="menu-item-1769" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1769"><a href="https://themewagon.com/themes/">All Templates</a></li>
+<li id="menu-item-10166" class="menu-item menu-item-type-taxonomy menu-item-object-theme_category menu-item-10166"><a href="https://themewagon.com/theme-categories/premium-templates/">Popular Items</a></li>
+<li id="menu-item-18800" class="menu-item menu-item-type-taxonomy menu-item-object-theme_tag menu-item-18800"><a href="https://themewagon.com/theme_tag/free/">Free</a></li>
+<li id="menu-item-1775" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1775"><a href="https://themewagon.com/theme_tag/quality-checked/?ref=topNav">Quality Checked</a></li>
+<li id="menu-item-49758" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-49758"><a href="https://themewagon.com/themes/?sortby=download">Most Downloaded</a></li>
+<li id="menu-item-1779" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1779"><a href="https://themewagon.com/theme_tag/bootstrap-4-templates/">Bootstrap 4</a></li>
+<li id="menu-item-47894" class="menu-item menu-item-type-taxonomy menu-item-object-theme_category menu-item-47894"><a href="https://themewagon.com/theme-categories/admin-dashboard/">Admin &#038; Dashboard</a></li>
+<li id="menu-item-49757" class="menu-item menu-item-type-taxonomy menu-item-object-theme_category menu-item-49757"><a href="https://themewagon.com/theme-categories/business-corporate/">Business &#038; Corporate</a></li>
+<li id="menu-item-1780" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1780"><a href="https://themewagon.com/theme-categories/personal/">Personal</a></li>
+<li id="menu-item-26323" class="badge menu-item menu-item-type-custom menu-item-object-custom menu-item-26323"><a href="https://themewagon.com/themes/mega-discount-bundle/?ref=topNav">Flash Deal &#8211; 93% Off</a></li>
+</ul></div>        </div>
+    </div>
+
+
+<div id="pjax-container">
+
+	
+	<style>
+		.download-start-notification{
+			margin-top: -40px;
+			padding: 22px 0;
+		    background: #eefdec;
+		    text-align: center;
+		    margin-bottom: 0px;
+		    box-shadow: 0px 0px 20px -2px #b4ffb4;
+		    border-bottom: 1px solid #8bffbc;
+		}
+	</style>
+
+
+	<div class="page-section">
+
+		<h4 class="download-start-notification">Thank you for downloading. Your download should start in <span id="counter">6</span>, if not <a href="">Click here</a>. </h4>
+
+		<div class="container">
+
+			<article id="post-586" class="post-586 page type-page status-publish hentry">
+				<div class="page-content text-center" style="padding: 60px 0; min-height: 90vh">
+					
+
+				<h2>Oops! Error. Please try again.</h2>
+
+				</div>
+			</article>
+
+		</div>
+	</div>
+
+</div>
+
+
+
+
+
+
+            <script type="text/javascript">
+        jQuery(document).ready(function(){
+
+            jQuery(document).pjax('a.pjax, .header-second-menu a', '#pjax-container', {
+                timeout: 2000
+            });
+
+
+            jQuery(document).on('pjax:send', function() {
+                jQuery('#pjax_loading').show();
+            });
+            jQuery(document).on('pjax:complete', function(xhr, textStatus, options) {
+                console.log(options);
+                jQuery('#pjax_loading').hide();
+                jQuery(document).scrollTop(2);
+            });
+
+        });
+    </script>
+    
+    <div id="last"></div>
+
+    <footer id="footer">
+        <div class="container">
+            <div class="row">
+                <section class="col-md-3 col-sm-6">
+                    <h4>About ThemeWagon</h4>
+                    <p style="font-size: 14px; line-height: 19px;">ThemeWagon offers an wide array of category-oriented Free and Premium Responsive Bootstrap HTML Templates and WordPress Themes that covers all kinds of templates or themes a developer may need!</p>
+                    <a href="https://themewagon.com/"><img class="footer-logo hidden-sm hidden-xs" alt="ThemeWaon" src="https://d2zav2bjdlctd5.cloudfront.net/themes/themewagon/img/logo-white.png"></a>
+                </section>
+                <section class="col-md-2 col-sm-6">
+
+                    <h4>Any Query?</h4>
+                    <ul class="footer-box-list">
+                        <li><a href="https://themewagon.com/themes">Free Templates</a></li>
+                        <li><a href="https://themewagon.com/contact/">Custom Templates</a></li>
+                        <li><a href="https://themewagon.com/terms-conditions/">Terms &amp; Conditions</a></li>
+                        <li><a href="https://themewagon.com/privacy-policy/">Privacy Policy</a></li>
+                        <li><a href="https://themewagon.com/blog">Articles</a></li>
+                        <li><a href="https://themewagon.com/about-theme-wagon/">About</a></li>
+                        <li><a href="https://themewagon.com/license/">License</a></li>
+                    </ul>
+                </section>
+
+                <section class="col-md-4 col-sm-6 text-center">
+                    <h4>We are Social</h4>
+                    <div class="social">
+                        <a class="facebook" href="https://www.facebook.com/themewagon" target="_blank"></a>
+                        <a class="twitter" href="https://twitter.com/themewagon" target="_blank"></a>
+                        <a class="gplus" href="https://www.google.com/+ThemewagonThemes" target="_blank"></a>
+                        <a class="pinterest" href="https://www.pinterest.com/themewagon/" target="_blank"></a>
+                    </div>
+
+
+
+                </section>
+                <section class="col-md-3">
+                    <p>
+                        <img class="img-responsive" src="https://d2zav2bjdlctd5.cloudfront.net/uploads/2016/02/bdg_secured_by_pp_2line.png" border="0" alt="Payments by PayPal">
+                    </p>
+                    <p>
+                        <img style="max-width: 163px; margin-top: 30px;" src="https://d2zav2bjdlctd5.cloudfront.net/themes/themewagon/img/outline.png" />
+                    </p>
+                </section>
+            </div><!-- row -->
+            <div class="copyright">
+                <div class="row">
+                    <div class="col-md-6">
+                        <p><a href="mailto:info@themewagon.com">info@themewagon.com</a></p>
+                    </div>
+                    <div class="col-md-6">
+                        <p class="text-right">&copy; 2018 <a href="http://themewagon.com/">ThemeWagon.com</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div style="display: none;" id="pjax_loading"><i class="fa fa-spinner fa-spin"></i></div>
+
+
+    
+
+    <script type='text/javascript'>
+/* <![CDATA[ */
+var _wpcf7 = {"recaptcha":{"messages":{"empty":"Please verify that you are not a robot."}}};
+/* ]]> */
+</script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var edd_scripts = {"ajaxurl":"https:\/\/themewagon.com\/wp-admin\/admin-ajax.php","position_in_cart":"","has_purchase_links":"","already_in_cart_message":"You have already added this item to your cart","empty_cart_message":"Your cart is empty","loading":"Loading","select_option":"Please select an option","ajax_loader":"\/wp-content\/plugins\/easy-digital-downloads\/assets\/images\/loading.gif","is_checkout":"0","default_gateway":"stripe_checkout","redirect_to_checkout":"0","checkout_page":"https:\/\/themewagon.com\/checkout\/","permalinks":"1","quantities_enabled":"","taxes_enabled":"0"};
+/* ]]> */
+</script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var ratingsL10n = {"plugin_url":"https:\/\/themewagon.com\/wp-content\/plugins\/wp-postratings","ajax_url":"https:\/\/themewagon.com\/wp-admin\/admin-ajax.php","text_wait":"Please rate only 1 item at a time.","image":"stars_crystal","image_ext":"gif","max":"5","show_loading":"1","show_fading":"0","custom":"0"};
+var ratings_mouseover_image=new Image();ratings_mouseover_image.src="https://themewagon.com/wp-content/plugins/wp-postratings/images/stars_crystal/rating_over.gif";;
+/* ]]> */
+</script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var affwp_scripts = {"ajaxurl":"https:\/\/themewagon.com\/wp-admin\/admin-ajax.php"};
+/* ]]> */
+</script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var us_script = {"ajaxurl":"https:\/\/themewagon.com\/wp-admin\/admin-ajax.php","tweet_via":"themewagon","success":"Great work! Your message was sent.","trying":"Trying to send email...","total_shares_text":"","facebook_height":"500","facebook_width":"900","twitter_height":"500","twitter_width":"900","googleplus_height":"500","googleplus_width":"900","delicious_height":"550","delicious_width":"550","stumble_height":"550","stumble_width":"550","linkedin_height":"550","linkedin_width":"550","pinterest_height":"320","pinterest_width":"720","buffer_height":"500","buffer_width":"900","reddit_height":"500","reddit_width":"900","vkontakte_height":"500","vkontakte_width":"900","printfriendly_height":"500","printfriendly_width":"1045","pocket_height":"500","pocket_width":"900","tumblr_height":"500","tumblr_width":"900","flipboard_height":"500","flipboard_width":"900","weibo_height":"500","weibo_width":"900","xing_height":"500","xing_width":"900","ok_height":"500","ok_width":"900","managewp_height":"500","managewp_width":"900","meneame_height":"500","meneame_width":"900","digg_height":"500","digg_width":"900","home_url":"https:\/\/themewagon.com","B":"B","M":"M","k":"k","nonce":"e0b0ea0402","already_loved_message":"You have already loved this item.","error_message":"Sorry, there was a problem processing your request.","logged_in":"false","bitly":"true"};
+/* ]]> */
+</script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var BJLL_options = {"threshold":"100"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://themewagon.com/wp-content/plugins/bwp-minify/min/?f=wp-content/plugins/contact-form-7/includes/js/jquery.form.min.js,wp-content/plugins/contact-form-7/includes/js/scripts.js,wp-content/plugins/easy-digital-downloads/assets/js/edd-ajax.min.js,wp-content/plugins/themewagon_extended/assets/js/pjax.min.js,wp-content/plugins/wp-postratings/js/postratings-js.js,wp-content/plugins/AffiliateWP/assets/js/jquery.cookie.min.js,wp-content/plugins/ultimate-social-deux/public/assets/js/min/us.script-min.js,wp-includes/js/jquery/jquery-migrate.min.js,wp-content/themes/wagoncore/js/framework.js,wp-content/themes/wagoncore/js/main.js,wp-content/plugins/bj-lazy-load/js/bj-lazy-load.min.js,wp-includes/js/wp-embed.min.js&#038;ver=1515303028'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var affwp_debug_vars = {"integrations":{"edd":"Easy Digital Downloads"},"version":"2.0","currency":"USD"};
+/* ]]> */
+</script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var us_native_script = {"vkontakte_appid":"","facebook_appid":"376429102482150"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://themewagon.com/wp-content/plugins/bwp-minify/min/?f=wp-content/plugins/AffiliateWP/assets/js/tracking.min.js,wp-content/plugins/ultimate-social-deux/public/assets/js/min/us.native-min.js,wp-content/plugins/ultimate-social-deux/public/assets/js/min/jquery.magnific-popup-min.js,wp-content/plugins/ultimate-social-deux/public/assets/js/min/jquery.sticky-min.js,wp-content/plugins/ultimate-social-deux/public/assets/js/min/jquery.fittext-min.js,wp-content/plugins/ultimate-social-deux/public/assets/js/min/jquery.tooltipster-min.js,wp-content/plugins/rich-reviews/js/rich-reviews.min.js&#038;ver=1515303028'></script>
+<script>jQuery(document).ready(function($) {});</script>    
+    
+    <!-- google analytics tracking code -->
+    <script>
+        
+        ga('send', 'pageview');
+
+    </script>
+
+        
+    
+    <!-- Hotjar Tracking Code -->
+    <script>
+        (function(h,o,t,j,a,r){
+            h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+            h._hjSettings={hjid:276128,hjsv:5};
+            a=o.getElementsByTagName('head')[0];
+            r=o.createElement('script');r.async=1;
+            r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+            a.appendChild(r);
+        })(window,document,'//static.hotjar.com/c/hotjar-','.js?sv=');
+    </script>
+
+    
+
+
+    </body>
+</html>
