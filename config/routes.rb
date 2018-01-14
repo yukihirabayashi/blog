@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  root to: 'top#index'
+  root 'top#index'
     resources :webpages do
       collection do 
       end
