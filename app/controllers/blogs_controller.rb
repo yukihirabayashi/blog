@@ -1,6 +1,7 @@
 class BlogsController < ApplicationController
     before_action :set_blog, only: [:show, :edit, :update, :destroy]
-    
+   before_action :login_check, only: [:new, :edit, :show ]
+ 
   def index
     @blogs = Blog.all
   end
@@ -49,7 +50,15 @@ class BlogsController < ApplicationController
     @blog = Blog.new(blog_params)
     render :new if @blog.invalid?
   end
-  
+ 
+  def login_check
+  #  binding.pry
+    
+    if current_user == nil
+        redirect_to "/sessions/new"
+    end
+  end   
+ 
   private
   
   def blog_params
