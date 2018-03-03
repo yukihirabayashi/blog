@@ -3,13 +3,13 @@ Rails.application.routes.draw do
 
   resources :sessions, only: [:new, :create, :destroy]
   resources :users
-  
+  resources :favorites, only: [:create, :destroy]
+
   root 'top#index'
     resources :webpages do
       collection do 
       end
     end
-    resources :users, only: [:new, :create]
     
     resources :blogs do
       collection do

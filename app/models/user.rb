@@ -1,10 +1,18 @@
 class User < ApplicationRecord
+    
+   
+  
+    has_many :favorites, dependent: :destroy
+    has_many :favorite_blogs, through: :favorites, source: :blog
+    
+    has_many :blogs
+      
     validates :name,  presence: true, length: { maximum: 30 }
     validates :email, presence: true, length: { maximum: 255 },
         format: { with: /\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i }
 
       attr_accessor :remember_token
-        
+      
       before_save { self .email = email.downcase }
       
        validates :name,  presence: true, length: { maximum: 50 }
@@ -21,7 +29,7 @@ class User < ApplicationRecord
         cost = ActiveModel::SecurePassword.min_cost ? BCrypt::Engine::MIN_COST :
                                                   BCrypt::Engine.cost
         BCrypt::Password.create(string, cost: cost)
-    end
+      end
     
     # ランダムなトークンを返す
     def User.new_token
@@ -43,5 +51,6 @@ class User < ApplicationRecord
     def forget
         update_attribute(:remember_digest, nil)
     end
+
       
 end

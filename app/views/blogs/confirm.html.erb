@@ -2,12 +2,10 @@
 
 <%= form_with(model: @blog, url: blogs_path, local: true) do |form| %>
   <%= form.hidden_field :name %>
-  <%= form.hidden_field :email %>
   <%= form.hidden_field :title %>
   <%= form.hidden_field :content %>
 
   <p>名前:<%= @blog.name %></p>
-  <p>メールアドレス:<%= @blog.email %></p>
   <p>タイトル:<%= @blog.title %></p>
   <p>本文:<%= @blog.content %></p>
 
@@ -17,7 +15,6 @@
 <br>
 <%= form_with(model: @blog, url: new_blog_path, local: true, method: 'get') do |form| %>
  <%= form.hidden_field :name %>
-  <%= form.hidden_field :email %>
   <%= form.hidden_field :title %>
   <%= form.hidden_field :content %>
   <%= form.submit "もどる", name: 'back' %>

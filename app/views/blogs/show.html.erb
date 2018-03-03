@@ -1,9 +1,37 @@
-<h1>ブログ詳細画面</h1>
-<p>名前: <%= @blog.name %></p>
-<p>email: <%= @blog.email %></p>
-<p>タイトル: <%= @blog.title %></p>
-<p>内容: <%= @blog.content %></p>
+<h1>ブログ詳細ページ</h1>
+
+<div class="container">
+    <div class="row">
+
+<center>        
+<table>
+    <tr>
+        <th>名前</th>
+        <th>タイトル</th>
+        <th>内容</th>
+    </tr>
+    <tr>
+        <td><%= @blog.name %></td>
+        <td><%= @blog.title %></td>
+        <td><%= @blog.content %></td>
+    </tr>
+</table>
+</center>
 
 <br>
-<%= link_to 'ブログ一覧画面にもどる', '/blogs' %>
+<% unless @blog.favorite_users == current_user %>
+    <% if @favorite.present? %>
+        <%= link_to 'お気に入りを解除する', favorite_path(blog_id: @blog.id), method: :delete, class: 'btn btn-danger' %>
+    <% else %>
+        <%= link_to 'お気に入りする', favorites_path(blog_id: @blog.id), method: :post, class: 'btn btn-prymary' %>
+    <% end %>
+<% end %>
+
+<br>
+
+</div>
+</div>
+<%= link_to 'ブログ一覧画面にもどる |', '/blogs' %>
 <%= link_to '新しくブログを投稿する', new_blog_path %>
+
+

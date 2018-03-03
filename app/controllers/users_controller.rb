@@ -14,7 +14,14 @@ class UsersController < ApplicationController
     end
     
     def show
-        @user = User.find(params[:id])   
+        @user = User.find(params[:id])  
+        
+       
+        # @favorite = current_user.favorites.find_by(blog_id: @blog.id)
+        
+        # ログインユーザーが登録したお気に入りをすべて取得する
+         @favorites_blogs = @user.favorite_blogs
+         
     end
     
     private

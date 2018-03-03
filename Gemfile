@@ -54,5 +54,5 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'bcrypt', '3.1.11'
 
-  gem 'pry-rails' #動作検証アプリ
-  gem 'better_errors' #動作検証アプリ
+gem 'pry-rails' #動作検証アプリ
+gem 'better_errors' #動作検証アプリ

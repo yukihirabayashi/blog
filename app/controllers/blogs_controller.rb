@@ -1,6 +1,6 @@
 class BlogsController < ApplicationController
     before_action :set_blog, only: [:show, :edit, :update, :destroy]
-   before_action :login_check, only: [:new, :edit, :show ]
+    before_action :login_check, only: [:new, :edit, :show ]
  
   def index
     @blogs = Blog.all
@@ -8,14 +8,16 @@ class BlogsController < ApplicationController
 
   def new
     if params[:back]
-      @blog = Blog.new(blog_params)
+      @blog = Blog.new(blogs_params)
     else
       @blog = Blog.new
     end
   end
 
   def create
-    @blog = Blog.new(blog_params)
+    @blog = Blog.new(blogs_params)
+    @blog.user_id = current_user.id
+    #現在ログインしているuserのidをblogのuser_idカラムに挿入する。
     if @blog.save
        redirect_to blogs_path, notice: "ブログを作成しました！"
     else
@@ -24,8 +26,12 @@ class BlogsController < ApplicationController
   end
   
   def show
+    
     # 追記する
-    @blog = Blog.find(params[:id])
+    #    @blog = Blog.find(params[:id])
+    
+    @favorite = current_user.favorites.find_by(blog_id: @blog.id)
+
   end
   
   def edit
@@ -34,7 +40,7 @@ class BlogsController < ApplicationController
 
   def update
     @blog = Blog.find(params[:id])
-    if @blog.update(blog_params)
+    if @blog.update(blogs_params)
       redirect_to blogs_path, notice: "ブログを編集しました！"
     else
       render 'edit'
@@ -47,25 +53,27 @@ class BlogsController < ApplicationController
   end
   
   def confirm
-    @blog = Blog.new(blog_params)
-    render :new if @blog.invalid?
+    
+  #      binding.pry
+        
+    @blog = Blog.new(blogs_params)
   end
  
-  def login_check
-  #  binding.pry
-    
-    if current_user == nil
-        redirect_to "/sessions/new"
-    end
-  end   
+  
  
   private
   
-  def blog_params
-    params.require(:blog).permit(:name, :email, :title, :content, )
+  def blogs_params
+    params.require(:blog).permit(:name, :title, :content, )
   end
   
   def set_blog
     @blog = Blog.find(params[:id])
   end
+  
+  def login_check
+    if current_user == nil
+        redirect_to "/sessions/new"
+    end
+  end   
 end
