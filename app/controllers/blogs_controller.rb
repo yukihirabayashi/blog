@@ -9,6 +9,8 @@ class BlogsController < ApplicationController
   def new
     if params[:back]
       @blog = Blog.new(blogs_params)
+      #変数 = 変数に代入したい値
+      #.~で使用するものメソッド
     else
       @blog = Blog.new
     end
