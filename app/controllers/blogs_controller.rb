@@ -9,17 +9,19 @@ class BlogsController < ApplicationController
   def new
     if params[:back]
       @blog = Blog.new(blogs_params)
-      #変数 = 変数に代入したい値
-      #.~で使用するものメソッド
     else
       @blog = Blog.new
     end
+  end
+  
+  def confirm
+    @blog = Blog.new(blogs_params)
+    render :new if @blog.invalid?
   end
 
   def create
     @blog = Blog.new(blogs_params)
     @blog.user_id = current_user.id
-    #現在ログインしているuserのidをblogのuser_idカラムに挿入する。
     if @blog.save
        redirect_to blogs_path, notice: "ブログを作成しました！"
     else
@@ -54,17 +56,14 @@ class BlogsController < ApplicationController
     redirect_to blogs_path, notice:"ブログを削除しました！"
   end
   
-  def confirm
-    @blog = Blog.new(blogs_params)
-    @blog.user_id = current_user.id
-  end
+  
  
   
  
   private
   
   def blogs_params
-    params.require(:blog).permit(:name, :title, :content, )
+    params.require(:blog).permit(:name, :title, :content)
   end
   
   def set_blog
