@@ -55,10 +55,8 @@ class BlogsController < ApplicationController
   end
   
   def confirm
-    
-  #      binding.pry
-        
     @blog = Blog.new(blogs_params)
+    @blog.user_id = current_user.id
   end
  
   
