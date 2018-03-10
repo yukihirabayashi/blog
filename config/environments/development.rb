@@ -10,7 +10,9 @@ Rails.application.configure do
   config.eager_load = false
 
   # Show full error reports.
-  config.consider_all_requests_local = true
+#  config.consider_all_requests_local = true
+  config.action_mailer.default_url_options = { host: 'mailer-yukihirabayashi.c9users.io:8080/' }
+config.action_mailer.delivery_method = :letter_opener
 
   # Enable/disable caching. By default caching is disabled.
   if Rails.root.join('tmp/caching-dev.txt').exist?
@@ -45,9 +47,6 @@ Rails.application.configure do
   # Suppress logger output for asset requests.
   config.assets.quiet = true
   
-  config.action_mailer.default_url_options = { host: 'bootstrapp-yukihirabayashi.c9users.io:8080/' }
-  config.action_mailer.delivery_method = :letter_opener
-
   # Raises error for missing translations
   # config.action_view.raise_on_missing_translations = true
 
