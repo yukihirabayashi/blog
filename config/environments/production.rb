@@ -1,6 +1,6 @@
 Rails.application.configure do
   
- config.action_mailer.default_url_options = { host: 'frozen-beach-69823.herokuapp.com' }
+ config.action_mailer.default_url_options = { host: 'frozen-beach-69823' }
 ActionMailer::Base.delivery_method = :smtp
 ActionMailer::Base.smtp_settings =
 {
