@@ -56,3 +56,7 @@ gem 'bcrypt', '3.1.11'
 
 gem 'pry-rails' #動作検証アプリ
 gem 'better_errors' #動作検証アプリ
+
+group :development do
+  gem 'letter_opener_web'
+end

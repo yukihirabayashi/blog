@@ -22,6 +22,8 @@ class BlogsController < ApplicationController
     #現在ログインしているuserのidをblogのuser_idカラムに挿入する。
     if @blog.save
        redirect_to blogs_path, notice: "ブログを作成しました！"
+       ContactMailer.contact_mail(@blog).deliver
+      
     else
       render 'new'
     end
