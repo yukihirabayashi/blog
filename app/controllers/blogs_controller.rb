@@ -20,10 +20,11 @@ class BlogsController < ApplicationController
     @blog = Blog.new(blogs_params)
     @blog.user_id = current_user.id
     #現在ログインしているuserのidをblogのuser_idカラムに挿入する。
+    @blog.image.retrieve_from_cache! params[:cache][:image]
+    @blog.save!
     if @blog.save
        redirect_to blogs_path, notice: "ブログを作成しました！"
        ContactMailer.contact_mail(@blog).deliver
-      
     else
       render 'new'
     end
@@ -57,9 +58,6 @@ class BlogsController < ApplicationController
   end
   
   def confirm
-    
-  #      binding.pry
-        
     @blog = Blog.new(blogs_params)
   end
  
@@ -68,7 +66,7 @@ class BlogsController < ApplicationController
   private
   
   def blogs_params
-    params.require(:blog).permit(:name, :title, :content, )
+    params.require(:blog).permit(:name, :title, :content, :image, :image_cache, )
   end
   
   def set_blog

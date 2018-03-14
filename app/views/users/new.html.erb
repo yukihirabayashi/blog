@@ -52,7 +52,22 @@
             <%= f.password_field :password_confirmation %>
         </td>
     </tr>
+    <tr>
+        <td>
+          <div class="user">
+              <%= f.label :icon %>
+        </td>
+         <td>
+              <%= f.file_field :icon, id: :user_image %>
+              <%= f.hidden_field :user_cache %>
+          </div>
+         </td>
+     </tr>
 </table>
+
+           <%= image_tag @user.icon %>
+
+
 
 <br><br>
 <%= f.submit "アカウント登録" %>

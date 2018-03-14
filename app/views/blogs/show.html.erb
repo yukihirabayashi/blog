@@ -4,16 +4,31 @@
     <div class="row">
 
 <center>        
-<table>
+  <table border="0">
     <tr>
-        <th>名前</th>
-        <th>タイトル</th>
-        <th>内容</th>
+      <th>名前
+      </td>
+       <td><%= @blog.name %>
+        </td>
     </tr>
     <tr>
-        <td><%= @blog.name %></td>
-        <td><%= @blog.title %></td>
-        <td><%= @blog.content %></td>
+      <th>タイトル
+      </th>
+        <td><%= @blog.title %>
+        </td>
+    </tr>
+    <tr>
+      <th>内容
+      </th>
+        <td><%= @blog.content %>
+        </td>
+    </tr>
+    <tr>
+      <th>画像
+      </th>
+        <td><%= image_tag @blog.image %>
+        </td>
+    </tr>
     </tr>
 </table>
 </center>

@@ -9,20 +9,55 @@
       <% end %>
       </ul>
     </div>
-    
   <% end %>
-    <div class="blog_title">
-    <%= form.label :name %>
-    <%= form.text_field :name %>
-  <div class="blog_title">
-    <%= form.label :title %>
-    <%= form.text_field :title %>
-  </div>
-  <div class="blog_title">
-    <%= form.label :content %>
-    <%= form.text_field :content %>
-  </div>
 
+  
+<center>
+  <table border="0">
+    <tr>
+      <td>
+      <div class="blog_title">
+        <%= form.label :name %>
+      </td>
+      <td>
+        <%= form.text_field :name %>
+      </div>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <div class="blog_title">
+        <%= form.label :title %>
+      </td>
+      <td>
+        <%= form.text_field :title %>
+      </div>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <div class="blog_title">
+        <%= form.label :content %>
+      </td>
+      <td>
+        <%= form.text_field :content %>
+        </div>
+      </td>
+    </tr>
+     <tr>
+       <td>  
+          <div class="blog">
+          <%= form.label :image %>
+        </td>
+        <td>
+          <%= form.file_field :image, id: :blog_image %>
+          <%= form.hidden_field :image_cache %>
+          </div>
+        </td>
+      </tr>
+</table>
+</center>  
+<br>
   <%= form.submit %>
 <% end %>
 

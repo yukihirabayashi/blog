@@ -1,8 +1,12 @@
 Rails.application.configure do
+   # Settings specified here will take precedence over those in config/application.rb.
+
+  # Code is not reloaded between requests.
+  config.cache_classes = true
   
- config.action_mailer.default_url_options = { host: 'frozen-beach-69823' }
-ActionMailer::Base.delivery_method = :smtp
-ActionMailer::Base.smtp_settings =
+  config.action_mailer.default_url_options = { host: 'frozen-beach-69823' }
+  ActionMailer::Base.delivery_method = :smtp
+  ActionMailer::Base.smtp_settings =
 {
  user_name: ENV['SENDGRID_USERNAME'],
  password: ENV['SENDGRID_PASSWORD'],
@@ -15,10 +19,7 @@ ActionMailer::Base.smtp_settings =
   
   
   
-  # Settings specified here will take precedence over those in config/application.rb.
 
-  # Code is not reloaded between requests.
-  config.cache_classes = true
 
   # Eager load code on boot. This eager loads most of Rails and
   # your application in memory, allowing both threaded web servers
