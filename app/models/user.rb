@@ -6,8 +6,9 @@ class User < ApplicationRecord
     has_many :favorite_blogs, through: :favorites, source: :blog
     
     # Carrierwaveの画像表示
-    mount_uploader :icon, ImageUploader
-      
+
+    mount_uploader :icon, IconUploader
+    
     validates :name,  presence: true, length: { maximum: 30 }
     validates :email, presence: true, length: { maximum: 255 },
         format: { with: /\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i }

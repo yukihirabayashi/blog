@@ -8,6 +8,7 @@ class Blog < ApplicationRecord
     validates :title, presence: true
     validates :content, presence: true,
                         length: { minimum: 1, maximum: 140 }
-                        
+  
     mount_uploader :image, ImageUploader
+
 end

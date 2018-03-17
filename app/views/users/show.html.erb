@@ -1,6 +1,11 @@
 <br>
 <br>
-<h1>    <p><%= image_tag @user.icon %><%= @user.name %>のお気に入りブログ一覧</h1>
+
+<h1>    <p>
+    
+   <%= image_tag @user.icon %> <%= @user.name %>のお気に入りブログ一覧</h1>
+
+
 
 <p>メールアドレス: <%= @user.email %></p>
 
@@ -11,7 +16,7 @@
     <% @favorites_blogs.each do | blog | %>
     
     <h2><%= blog.title %></h2>
-    <p><%= blog.content %></p>
+    <p><%= image_tag @user.icon %><%= blog.content %></p>
     <p><%= blog.created_at %></p>
     <% end %>
     
